@@ -10,6 +10,10 @@ h1, h2, h3, a {
     max-width: 1400px;
 }
 
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
 .hero {
     height: 100vh;
     background-image: url('assets/automata-planet.jpg');
