@@ -3,10 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automata - [Insert slogan]</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Automata - Home</title>
+    <link rel="stylesheet" href="reset.css"> <!-- resets default CSS styling -->
+    <link rel="stylesheet" href="style.css"> <!-- links CSS file  -->
+
+    <!-- linking Bootstrap CSS framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <!-- linking Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Michroma&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-info" href="index.html">AUTOMATA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">Why Automata?</a>
+                <a class="nav-link" href="features.html">Features</a>
+                <a class="nav-link" href="relocate.html">Relocate Now</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <!-- HERO BANNER -->
+    <section class="hero d-flex align-items-center justify-content-center text-center text-light position-relative">
+        <div class="container position-relative z-1">
+            <h1 class="display-4 fw-bold">Welcome to Automata</h1>
+            <p class="lead mb-4">A world where machines do the work, and humans live free.</p>
+            <a href="#relocate" class="btn btn-info btn-lg text-dark fw-bold">Start Your Journey</a>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about py-5 bg-light text-center" id="about">
+        <div class="container">
+            <h2 class="mb-4 text-info">Why Automata?</h2>
+            <p class="mb-4">Discover a society where stress, work, and deadlines are things of the past. On Automata, robots take care of every detail so you can live in peace.</p>
+            <a href="#features" class="btn btn-outline-info">Our Mission</a>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features py-5 bg-dark text-light" id="features">
+        <div class="container">
+            <h2 class="mb-5 text-center text-info">Life on Automata</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 bg-secondary text-light border-0">
+                        <img src="assets/effortless-living.jpg" class="card-img-top" alt="Robots cleaning a home">
+                        <div class="card-body">
+                            <h5 class="card-title">Effortless Living</h5>
+                            <p class="card-text">Robots clean, cook, and manage everything for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-secondary text-light border-0">
+                        <img src="assets/healthcare-ai.jpg" class="card-img-top" alt="Robot providing healthcare services">
+                        <div class="card-body">
+                            <h5 class="card-title">Healthcare by AI</h5>
+                            <p class="card-text">Receive instant, personalized care from advanced systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-secondary text-light border-0">
+                        <img src="assets/leisure-learning.jpg" class="card-img-top" alt="Woman experiencing freedom in nature">
+                        <div class="card-body">
+                            <h5 class="card-title">Leisure & Learning</h5>
+                            <p class="card-text">Pursue hobbies, explore knowledge, or just relax—all day.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-secondary text-light border-0">
+                        <img src="assets/eco-friendly.jpg" class="card-img-top" alt="Beautiful and healthy ecosystem">
+                        <div class="card-body">
+                            <h5 class="card-title">Eco-Friendly Habitat</h5>
+                            <p class="card-text">Automata is powered by clean, sustainable energy systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-info btn-lg text-dark fw-bold">Discover More</a>
+            </div>            
+        </div>
+    </section>  
+
+    <!-- RELOCATE -->
+    <section class="relocate py-5 bg-info text-center text-dark" id="relocate">
+        <div class="container">
+            <h2 class="mb-4 fw-bold">Ready to Relocate?</h2>
+            <p class="mb-4">Take the first step to living the life you deserve on Automata.</p>
+            <a href="#" class="btn btn-dark btn-lg">Reserve Your Spot</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-center text-light py-3">
+        <p class="mb-0">Copyright © 2025 Automata Initiative. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script> <!-- links Bootstrap JS framework -->
 </body>
 </html>
