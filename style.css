@@ -54,4 +54,27 @@ h1, h2, h3, a {
   
 footer p {
     font-size: 0.9rem;
-}  
+}
+
+/* ABOUT PAGE */
+.mini-hero {
+    min-height: 50vh;
+    background: url('images/about-hero.jpg') no-repeat center center/cover;
+}
+  
+.mini-hero .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.about-carousel {
+    max-width: 1400px;
+}
+
+.about-carousel .carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+    width: 100%;
+}
