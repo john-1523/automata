@@ -36,7 +36,103 @@
         </nav>
     </header>
 
-    <!-- CONTENT GOES HERE -->
+    <!-- MINI HERO -->
+    <section class="mini-hero position-relative text-light text-center d-flex align-items-center justify-content-center section-offset mt-5 pt-5">
+        <div class="container position-relative z-1">
+            <h1 class="display-5 fw-bold text-info">Relocate to Automata</h1>
+            <p class="lead mb-5">Ready to leave the stress behind? Apply now and make the move to a fully automated tomorrow.</p>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <!-- RELOCATION FORM -->
+    <section class="bg-light py-5 text-dark">
+        <div class="container">
+            <h2 class="text-center text-info mb-4">Submit Your Relocation Request</h2>
+            <form class="row g-4">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" required />
+                </div>
+                <div class="col-md-4">
+                    <label for="age" class="form-label">Age</label>
+                    <input type="number" class="form-control" id="age" min="16" max="120" required />
+                </div>
+                <div class="col-md-8">
+                    <label for="reason" class="form-label">Why do you want to relocate?</label>
+                    <input type="text" class="form-control" id="reason" placeholder="Optional" />
+                </div>
+                <div class="col-12">
+                    <label for="goals" class="form-label">What are you hoping to achieve on Automata?</label>
+                    <textarea class="form-control" id="goals" rows="4"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-info px-4">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="bg-dark py-5 text-light">
+        <div class="container">
+            <h2 class="text-center text-info mb-4">Quiz: Are You Ready for the Automata Lifestyle?</h2>
+            <form class="quiz-form row g-4">
+                <div class="col-12">
+                    <p class="fw-bold">1. What’s your ideal way to spend a day?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q1" id="q1a" />
+                        <label class="form-check-label" for="q1a">Sleeping in and letting robots make breakfast</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q1" id="q1b" />
+                        <label class="form-check-label" for="q1b">Tinkering with tech and exploring new tools</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q1" id="q1c" />
+                        <label class="form-check-label" for="q1c">Reading in a peaceful, automated garden</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="fw-bold">2. How do you feel about AI helping with everyday tasks?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2" id="q2a" />
+                        <label class="form-check-label" for="q2a">Love it - I'll finally have time for my hobbies!</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2" id="q2b" />
+                        <label class="form-check-label" for="q2b">Curious - can bots really do it better?</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q2" id="q2c" />
+                        <label class="form-check-label" for="q2c">As long as it's peaceful and reliable, I'm in</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="fw-bold">3. What's the most important to you in a futuristic lifestyle?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3" id="q3a" />
+                        <label class="form-check-label" for="q3a">Total freedom from chores and stress</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3" id="q3b" />
+                        <label class="form-check-label" for="q3b">Access to the latest tech and innovations</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q3" id="q3c" />
+                        <label class="form-check-label" for="q3c">Peace, quiet, and personalized comfort</label>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="button" class="btn btn-outline-info mt-3" onclick="alert('You’re definitely ready for Automata!')">Get My Result</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-light py-3">
