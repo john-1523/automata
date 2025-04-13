@@ -69,10 +69,6 @@ footer p {
     z-index: 0;
 }
 
-.about-carousel {
-    max-width: 1400px;
-}
-
 .about-carousel .carousel-item img {
     height: 80vh;
     object-fit: cover;
